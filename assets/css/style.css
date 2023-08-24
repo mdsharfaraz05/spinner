@@ -7632,7 +7632,8 @@ footer.style-5 .footer-bottom .f-bottom-list a:hover {
 .faq-section {
     position: relative;
     overflow: hidden;
-    z-index: 1
+    z-index: 1;
+    background: var(--primary-opcaity);
 }
 
 .watermark2-bg {
