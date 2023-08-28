@@ -7262,12 +7262,13 @@ footer.style-5 .footer-bottom .f-bottom-list a:hover {
 .documentation-tab-wrap button.nav-link {
     font-size: 18px;
     font-weight: 600;
-    margin: 0 5px
+    margin: 0 5px;
+    background: var(--primary-opcaity);
 }
 
 .documentation-tab-wrap .nav-pills .nav-link.active,
 .documentation-tab-wrap .nav-pills .show>.nav-link {
-    color: #fff;
+    color: var(--light-bg);
     background-color: var(--primary-color1)
 }
 
@@ -7367,7 +7368,17 @@ footer.style-5 .footer-bottom .f-bottom-list a:hover {
     background: var(--primary-color1);
     border-radius: 50%
 }
+.technology_item{
+    padding: 15px;
+}
+.technology_item .job-header {
+    flex-direction: column;
+    gap: 20px;
+}
 
+.technology_item .job-header .icon{
+    margin: 0;
+}
 .offer-section {
     background: linear-gradient(95.58deg, #FFFFFF 0%, #F3DBFF 100%);
     position: relative;
