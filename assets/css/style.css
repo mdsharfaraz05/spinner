@@ -7379,6 +7379,9 @@ footer.style-5 .footer-bottom .f-bottom-list a:hover {
 .technology_item .job-header .icon{
     margin: 0;
 }
+.technology_item .job-header h4.title{
+    text-align: center;
+}
 .offer-section {
     background: linear-gradient(95.58deg, #FFFFFF 0%, #F3DBFF 100%);
     position: relative;
